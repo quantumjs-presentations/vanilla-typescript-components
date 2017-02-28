@@ -75,13 +75,13 @@ export default class Presentation extends React.Component {
 
           <Slide transition={slideTransition} bgColor="secondary">
             <BlockQuote >
-              <Quote>Same as Vanilla-JavaScript Components with typing</Quote>
+              <Quote>Same as Vanilla-JavaScript Components with the benifits of strong typing</Quote>
             </BlockQuote>
           </Slide>
           <Slide transition={slideTransition}>
 
 
-            <Heading size={1} lineHeight={1} >Goals</Heading>
+            <Heading size={1} lineHeight={1} textColor="secondary" >Goals</Heading>
 
 
 
@@ -93,12 +93,19 @@ export default class Presentation extends React.Component {
             </Appear>
             <Appear fid="3">
               <Heading size={2} caps fit>
-                Minimal abstraction(if any)
+                Minimal abstraction
               </Heading>
             </Appear>
             <Appear fid="3">
               <Heading size={2} caps fit textColor="tertiary">
-                Communication through custom DOM events </Heading>
+                Communication through DOM events</Heading>
+            </Appear>
+            <Appear fid="3">
+              <Heading size={2} caps fit>Lightweight component API's</Heading>
+            </Appear>
+            <Appear fid="3">
+              <Heading size={2} caps fit textColor="tertiary">
+                Flexibility of usage</Heading>
             </Appear>
             <Appear fid="3">
               <Heading size={2} caps fit>Zero learning curve</Heading>
@@ -115,20 +122,48 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={slideTransition}>
-            <Heading size={2}>
-              Vanilla-typeScript npm package
-            </Heading>
-            <h3>Creating a cross framework component from scratch</h3>
+            <h4>Vanilla-TypeScript npm package</h4>
+            <h4>Is this a framework?</h4>
             <CodePane
               lang="typescript"
-              source={require("raw!../examples/IComponent.ts")}
+              source={require("raw!../examples/vanilla-typescript/interfaces/IComponent.ts")}
+              margin="20px auto"
+            />
+            <CodePane
+              lang="typescript"
+              source={require("raw!../examples/vanilla-typescript/interfaces/IAttachableComponent.ts")}
               margin="20px auto"
             />
             <p><a
               href="https://github.com/quantumjs/vanilla-typescript">https://github.com/quantumjs/vanilla-typescript</a>
             </p>
+            <h4>Taming the wild west of vanilla-js since 2016</h4>
+          </Slide>
+
+          <Slide transition={slideTransition}>
+            <Heading size={1} lineHeight={1} textColor="tertiary">
+              Reusable component template
+            </Heading>
+            <h4>Tactics by example</h4>
+            <Image src={images.ts} margin="40px auto" height="324px"/>
+          </Slide>
+
+          <Slide transition={slideTransition}>
             <h4>Is this a framework?</h4>
-            <p>Nope, this is just to provide some little level of common sense to the wild west of vanillajs.</p>
+            <CodePane
+              lang="typescript"
+              source={require("raw!../examples/vanilla-typescript/interfaces/IComponent.ts")}
+              margin="20px auto"
+            />
+            <CodePane
+              lang="typescript"
+              source={require("raw!../examples/vanilla-typescript/interfaces/IAttachableComponent.ts")}
+              margin="20px auto"
+            />
+            <p><a
+              href="https://github.com/quantumjs/vanilla-typescript">https://github.com/quantumjs/vanilla-typescript</a>
+            </p>
+            <h4>Taming the wild west of vanilla-js since 2016</h4>
           </Slide>
 
 

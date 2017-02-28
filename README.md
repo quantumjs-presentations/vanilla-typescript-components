@@ -1,19 +1,51 @@
-# Template
+# Vanilla TypeScript Components
 
-This is a presentation template.
+Learning TypeScript by example and practical use cases
 
-## Reference
+# Practice slow, to learn fast "A sensai"
 
-The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.markdown](https://github.com/FormidableLabs/spectacle/blob/master/README.markdown).
+Strong foundations mean we can go further for longer
 
-## Development
+# Course Outline
 
-To start up the local server, run `npm start`
+To provide a good practical learning outcome Courses are normally booked for 1-3 or 1-5 days 
 
-Open a browser and hit [http://localhost:3000](http://localhost:3000), and we are ready to roll
+##Day 1
 
-## Building & Deployment
+Session 1
+Typed JavaScript
 
-Building the dist version of the project is as easy as running `npm run build`
+Session 2
+TypeScript Playground examples
 
-If you want to deploy the slideshow to gh-pages, run `npm run deploy`
+##Day 2
+
+Session 1
+TypeScript and webpack
+
+Session 2
+A Vanilla TypeScript component boiler plate
+
+##Day 3
+
+Session 1
+Publish a TypeScript component to npm and importing into JavaScript and TypeScript projects
+
+
+Session 2
+Making a TypeScript popup and growl like component
+
+##Day 4
+
+Session 1
+Making a TypeScript router
+
+Session 2
+Making a TypeScript space-invadors game
+
+##Day 5
+
+Session 1
+Introduction to Angular 2
+Session 2
+Making an Angular 2 finance component
